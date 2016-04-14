@@ -1,18 +1,15 @@
 {
   "manifest_version": 2,
 
-  "name": "Google Play Music™ CSS Fix",
-  "description": "This extension adds css and js to make Google Play Music™ faster and better",
+  "name": "Speedy Google Play Music",
+  "short_name": "Speedy Google Music",
+  "description": "This extension adds css and js to make Google Play Music faster and better",
   "version": "1.0",
   
   "icons": {
 		"16": "/images/icon16.png",
 		"48": "/images/icon48.png",
 		"128": "/images/icon128.png"
-	},
-
-	"background": {
-		// "scripts": ["background.js"]
 	},
 
 	"content_scripts": [
@@ -23,12 +20,6 @@
       "js": ["google-music-fix.js"]
 		}
 	],
-  
-  "browser_action": {
-    // "default_icon": "/images/icon.png",
-    // "default_popup": "popup.html",
-    // "default_title": "Change Colors"
-  },
 
 	"web_accessible_resources": ["dist/*"]
   
