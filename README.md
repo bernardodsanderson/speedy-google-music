@@ -9,4 +9,4 @@ This extension is not affiliated with Google or Google Play Music.
 
 ##### Buy me a beer? [https://cash.me/$BernardoAnderson](https://cash.me/$BernardoAnderson)
 
-[![Chrome Store Link](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png)](https://chrome.google.com/webstore/detail/speedy-google-play-music/foapoaclekhpolkncfcnghfdnjlikbhp)
+[![Chrome Store Link](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/speedy-google-play-music/foapoaclekhpolkncfcnghfdnjlikbhp)
