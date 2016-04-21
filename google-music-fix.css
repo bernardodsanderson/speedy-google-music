@@ -30,10 +30,14 @@ core-header-panel #music-content.material .g-content, paper-header-panel #music-
 .paper-spinner-lite-1 .spinner-layer.paper-spinner-lite, #loading-overlay.material paper-spinner-lite .circle, .paper-checkbox-0 #checkbox.checked.paper-checkbox {
     border-color: #319298 !important;
 }
-sj-search-box.sj-search-box-0[opened] {
-    border: 2px solid #319298;
+sj-search-box.x-scope.sj-search-box-0[has-query] {
+    border: 2px solid #fff;
+    border-bottom: none;
 }
-.circle.paper-spinner-lite, #sliderKnobInner.paper-slider, .material-container-details paper-fab, .gb_b, .gb_1a, .gb_oc, .material-card .play-button-container paper-icon-button.play-button, .material-card .play-button-container paper-icon-button.play-indicator {
+sj-search-box.sj-search-box-0[opened] {
+    border: 2px solid #319298 !important;
+}
+.circle.paper-spinner-lite, #sliderKnobInner.paper-slider, .material-container-details paper-fab, .gb_b, .gb_1a, .gb_oc, .material-card .play-button-container paper-icon-button.play-button, .material-card .play-button-container paper-icon-button.play-indicator, .gb_2a, .gb_pc, .paper-fab-0 {
     border-radius: 50% !important;
 }
 core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-content, paper-drawer-panel:not([narrow]) paper-header-panel #music-content.material .g-content {
