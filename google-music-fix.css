@@ -64,7 +64,7 @@ core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-con
   top: -10px !important;
 }
 #queue-overlay::after {
-  border: 8px solid #f5f5f5 !important;
+  border: 8px solid white !important;
 }
 #queue-overlay {
   border: 1px solid #f5f5f5 !important;
@@ -80,4 +80,10 @@ core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-con
 }
 .nav-item-container.selected .fade-out::after, .fade-out:after {
   background: none !important;
+}
+#drawer-panel #player {
+  border-top: 4px solid whitesmoke;
+}
+#drawer-panel paper-header-panel#content-container {
+  height: calc(100% - 94px)!important;
 }
