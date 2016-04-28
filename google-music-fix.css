@@ -87,3 +87,6 @@ core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-con
 #drawer-panel paper-header-panel#content-container {
   height: calc(100% - 94px)!important;
 }
+.paper-slider-0 #sliderKnobInner.paper-slider {
+  border: none !important;
+}
