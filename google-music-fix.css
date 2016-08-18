@@ -5,7 +5,7 @@ core-header-panel#content-container.transparent #material-app-bar, paper-header-
   background-color: #ef6c00;
 }
 core-header-panel #music-content.material .g-content, paper-header-panel #music-content.material .g-content {
-  margin: 16px 16px 30px 16px;
+  margin: 32px 16px 30px 16px;
 }
 .gb_Zc {
   padding: 0 0 0 90px;
