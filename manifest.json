@@ -4,7 +4,7 @@
   "name": "Speedy Google Play Music",
   "short_name": "Speedy Google Music",
   "description": "This extension adds css and js to make Google Play Music faster and better",
-  "version": "1.9",
+  "version": "2.0",
   
   "icons": {
 		"16": "/images/icon16.png",
