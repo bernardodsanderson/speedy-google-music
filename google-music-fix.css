@@ -93,7 +93,9 @@ core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-con
 }
 .paper-slider-0 #sliderKnobInner.paper-slider, .paper-slider-1 #sliderKnobInner.paper-slider, #sliderKnobInner.paper-slider {
   border: none !important;
+  max-height: 100px !important;
 }
 paper-toast.x-scope.paper-toast-0 {
-  bottom: 200px !important;
+  bottom: 100px !important;
+  top: inherit !important;
 }
