@@ -47,7 +47,7 @@ sj-search-box.sj-search-box-0[opened], sj-search-box[opened] {
 core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-content, paper-drawer-panel:not([narrow]) paper-header-panel #music-content.material .g-content {
     margin: 32px 16px 30px 16px;
 }
-#mini-queue-details .imfl-image {
+#mini-queue-details .imfl-image, .gb_fa .gb_uc {
   background: none;
   background-color: #319298;
 }
@@ -73,13 +73,13 @@ core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-con
 #queue-overlay {
   border: 1px solid #f5f5f5 !important;
 }
-#left-nav-close-button {
+#left-nav-close-button, body #gb#gb a.gb_b {
   color: #f5f5f5;
 }
 #nav-container .nav-toolbar .menu-logo, .material-container-details .info .creator-profile-image, div#loading-logo {
   -webkit-filter: grayscale(1);
 }
-#material-hero-image {
+#material-hero-image, #gbwa, .gb_qc.gb_Ic.gb_R.gb_rc {
   display: none !important;
 }
 .nav-item-container.selected .fade-out::after, .fade-out:after {
@@ -98,4 +98,22 @@ core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-con
 paper-toast.x-scope.paper-toast-0 {
   bottom: 100px !important;
   top: inherit !important;
+}
+
+#left-nav-open-button iron-icon.paper-icon-button, #playlist-drawer-button iron-icon.paper-icon-button {
+  fill: #fff !important;
+}
+
+.paper-icon-button-0:focus iron-icon.paper-icon-button {
+  color: #319298 !important;
+}
+
+sj-home[selected="0"] .home-palette-id-5, sj-home[selected="1"] .home-palette-id-5, sj-home[selected="2"] .home-palette-id-5, sj-home[selected="3"] .home-palette-id-5, sj-home[selected="4"] .home-palette-id-5, sj-home[selected="5"] .home-palette-id-5, sj-home[selected="6"] .home-palette-id-5, sj-home[selected="7"] .home-palette-id-5, sj-home[selected="8"] .home-palette-id-5, sj-home[selected="9"] .home-palette-id-5, sj-home[selected="10"] .home-palette-id-5, sj-home[selected="11"] .home-palette-id-5 {
+  fill: #319298 !important;
+  color: #319298 !important;
+}
+
+.sj-play-button-1 #icon.sj-play-button, .sj-play-button-2 #icon.sj-play-button, .sj-play-button-3 #icon.sj-play-button, .sj-play-button-4 #icon.sj-play-button {
+  color: #fff !important;
+  fill: #fff !important;
 }
