@@ -79,7 +79,7 @@ core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-con
 #nav-container .nav-toolbar .menu-logo, .material-container-details .info .creator-profile-image, div#loading-logo {
   -webkit-filter: grayscale(1);
 }
-#material-hero-image, #gbwa, .gb_qc.gb_Ic.gb_R.gb_rc {
+#material-hero-image, #gbwa, .gb_qc.gb_Ic.gb_R.gb_rc, .gb_uc {
   display: none !important;
 }
 .nav-item-container.selected .fade-out::after, .fade-out:after {
@@ -113,7 +113,15 @@ sj-home[selected="0"] .home-palette-id-5, sj-home[selected="1"] .home-palette-id
   color: #319298 !important;
 }
 
-.sj-play-button-1 #icon.sj-play-button, .sj-play-button-2 #icon.sj-play-button, .sj-play-button-3 #icon.sj-play-button, .sj-play-button-4 #icon.sj-play-button {
+.sj-play-button-1 #icon.sj-play-button, .sj-play-button-2 #icon.sj-play-button, .sj-play-button-9 #icon.sj-play-button, .sj-play-button-13 #icon.sj-play-button, .sj-play-button-12 #icon.sj-play-button, .sj-play-button-14 #icon.sj-play-button, .sj-play-button-8 #icon.sj-play-button, .sj-play-button-15 #icon.sj-play-button, .sj-play-button-3 #icon.sj-play-button, .sj-play-button-4 #icon.sj-play-button, .sj-play-button-5 #icon.sj-play-button, .sj-play-button-6 #icon.sj-play-button, .sj-play-button-7 #icon.sj-play-button, .sj-play-button-8 #icon.sj-play-button, .sj-play-button-10 #icon.sj-play-button, .sj-play-button-11 #icon.sj-play-button, .sj-play-button-16 #icon.sj-play-button, .sj-play-button-17 #icon.sj-play-button, .sj-play-button-18 #icon.sj-play-button, .sj-play-button-19 #icon.sj-play-button, .sj-play-button-20 #icon.sj-play-button, .sj-play-button-21 #icon.sj-play-button, .paper-tab-0:not(.iron-selected) > .tab-content.paper-tab {
   color: #fff !important;
   fill: #fff !important;
+}
+
+.paper-tabs-0 #tabsContent.paper-tabs  > *:not(#selectionBar), #countSummary, #action-bar-container {
+  color: #fff !important;
+}
+
+paper-header-panel#content-container:not([style-scope]):not(.style-scope):not(.transparent)[at-top] paper-toolbar#material-app-bar {
+  border-bottom: none !important;
 }
