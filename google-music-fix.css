@@ -21,7 +21,7 @@ core-header-panel #music-content.material .g-content, paper-header-panel #music-
   box-shadow: none !important; 
   border-radius: 0 !important;
 }
-#material-app-bar, .paper-progress-0 #primaryProgress.paper-progress, .paper-slider-0 #sliderKnobInner.paper-slider, sj-paper-button.material-primary, paper-button.material-primary, .material .song-row .explicit, .paper-progress-1 #primaryProgress.paper-progress, .paper-slider-1 #sliderKnobInner.paper-slider, #current-loading-progress, .material-card .explicit, paper-toggle-button.paper-toggle-button-0[checked]:not([disabled]) .toggle-button.paper-toggle-button, paper-toggle-button.paper-toggle-button-0[checked]:not([disabled]) .toggle-bar.paper-toggle-button, .paper-fab-0, .paper-progress-2 #primaryProgress.paper-progress, .paper-checkbox-0 #checkbox.checked.paper-checkbox, .material-container-details .info .title .explicit, .material-container-details paper-fab, #primaryProgress.paper-progress, #sliderKnobInner.paper-slider, sj-play-button #buttonContent.sj-play-button {
+#material-app-bar, .paper-progress-0 #primaryProgress.paper-progress, .paper-slider-0 #sliderKnobInner.paper-slider, sj-paper-button.material-primary, paper-button.material-primary, .material .song-row .explicit, .paper-progress-1 #primaryProgress.paper-progress, .paper-slider-1 #sliderKnobInner.paper-slider, #current-loading-progress, .material-card .explicit, paper-toggle-button.paper-toggle-button-0[checked]:not([disabled]) .toggle-button.paper-toggle-button, paper-toggle-button.paper-toggle-button-0[checked]:not([disabled]) .toggle-bar.paper-toggle-button, .paper-fab-0, .paper-progress-2 #primaryProgress.paper-progress, .paper-checkbox-0 #checkbox.checked.paper-checkbox, .material-container-details .info .title .explicit, .material-container-details paper-fab, #primaryProgress.paper-progress, #sliderKnobInner.paper-slider, sj-play-button #buttonContent.sj-play-button, .signup .banner:not([style-scope]):not(.style-scope), .upload-dialog-title:not([style-scope]):not(.style-scope) {
     background-color: #319298 !important;
 }
 sj-play-button #pulse.sj-play-button {
@@ -118,10 +118,18 @@ sj-home[selected="0"] .home-palette-id-5, sj-home[selected="1"] .home-palette-id
   fill: #fff !important;
 }
 
-.paper-tabs-0 #tabsContent.paper-tabs  > *:not(#selectionBar), #countSummary, #action-bar-container {
+.paper-tabs-0 #tabsContent.paper-tabs  > *:not(#selectionBar), #countSummary, #action-bar-container, #breadcrumbs-dropdown-button {
   color: #fff !important;
 }
 
 paper-header-panel#content-container:not([style-scope]):not(.style-scope):not(.transparent)[at-top] paper-toolbar#material-app-bar {
   border-bottom: none !important;
+}
+
+#left-nav-open-button iron-icon.paper-icon-button {
+  min-width: 24px !important;
+}
+
+body .goog-menu .goog-menuitem.selected .goog-menuitem-content:not([style-scope]):not(.style-scope) {
+  color: #fff !important;
 }
