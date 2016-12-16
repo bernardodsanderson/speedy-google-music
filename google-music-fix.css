@@ -34,11 +34,11 @@ sj-play-button #pulse.sj-play-button {
 .paper-spinner-lite-1 .spinner-layer.paper-spinner-lite, #loading-overlay.material paper-spinner-lite .circle, .paper-checkbox-0 #checkbox.checked.paper-checkbox {
     border-color: #319298 !important;
 }
-sj-search-box.x-scope.sj-search-box-0[has-query], sj-search-box[has-query] {
+sj-search-box.x-scope.sj-search-box-0[has-query], sj-search-box[has-query], .sj-search-box-0 {
     border: 2px solid #fff;
     border-bottom: none;
 }
-sj-search-box.sj-search-box-0[opened], sj-search-box[opened] {
+sj-search-box.sj-search-box-0[opened], sj-search-box[opened], .sj-search-box-0 {
     border: 2px solid #319298 !important;
 }
 .circle.paper-spinner-lite, #sliderKnobInner.paper-slider, .material-container-details paper-fab, .gb_b, .gb_1a, .gb_oc, .material-card .play-button-container paper-icon-button.play-button, .material-card .play-button-container paper-icon-button.play-indicator, .gb_2a, .gb_pc, .paper-fab-0, .gb_3a, .gbii, .gb_qc, .gb_rc, .gb_Rb, .gb_tc {
@@ -132,4 +132,14 @@ paper-header-panel#content-container:not([style-scope]):not(.style-scope):not(.t
 
 body .goog-menu .goog-menuitem.selected .goog-menuitem-content:not([style-scope]):not(.style-scope) {
   color: #fff !important;
+}
+
+.paper-dialog-0 {
+  border: 1px solid #319298 !important;
+}
+
+.material .song-table.tight .song-row td, .material .song-table.tight .upload-progress-row td {
+  border-bottom: none !important;
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
 }
